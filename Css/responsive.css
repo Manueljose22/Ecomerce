@@ -54,7 +54,19 @@
         margin: 0 auto;
     }
 }
+@media(max-width:375px){
+    header.sticky{
+        padding: 20px 4.5%;
+        
+    }
+}
 
+@media(max-width:360px){
+    header.sticky{
+        padding: 20px 4%;
+        
+    }
+}
 @media(max-width:320px){
     .cart img{
         width: 250px;
@@ -69,7 +81,7 @@
     }
 }
 
-
+/*Sidebar*/
 @media(max-width:750px){
     .nav-menu{
         position: absolute;
@@ -93,7 +105,7 @@
     .nav-menu.open{
         right: 0;
     }
-
+/*----------------------------------------*/
     .row {
         margin: 0 auto;
     }
